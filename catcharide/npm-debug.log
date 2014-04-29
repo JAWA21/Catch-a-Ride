@@ -1,0 +1,497 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'cordova',
+1 verbose cli   'ionic' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 verbose cache add [ 'cordova', null ]
+5 verbose cache add name=undefined spec="cordova" args=["cordova",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'cordova',
+6 verbose parsed url   path: 'cordova',
+6 verbose parsed url   href: 'cordova' }
+7 verbose cache add [ 'ionic', null ]
+8 verbose cache add name=undefined spec="ionic" args=["ionic",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'ionic',
+9 verbose parsed url   path: 'ionic',
+9 verbose parsed url   href: 'ionic' }
+10 silly lockFile a98f2055-cordova cordova
+11 verbose lock cordova /Users/whollymacII/.npm/a98f2055-cordova.lock
+12 silly lockFile 00d10074-ionic ionic
+13 verbose lock ionic /Users/whollymacII/.npm/00d10074-ionic.lock
+14 silly lockFile a98f2055-cordova cordova
+15 silly lockFile a98f2055-cordova cordova
+16 silly lockFile 00d10074-ionic ionic
+17 silly lockFile 00d10074-ionic ionic
+18 verbose addNamed [ 'cordova', '' ]
+19 verbose addNamed [ null, '*' ]
+20 silly lockFile de8d9fad-cordova cordova@
+21 verbose lock cordova@ /Users/whollymacII/.npm/de8d9fad-cordova.lock
+22 verbose addNamed [ 'ionic', '' ]
+23 verbose addNamed [ null, '*' ]
+24 silly lockFile 966fc04a-ionic ionic@
+25 verbose lock ionic@ /Users/whollymacII/.npm/966fc04a-ionic.lock
+26 silly addNameRange { name: 'cordova', range: '*', hasData: false }
+27 silly addNameRange { name: 'ionic', range: '*', hasData: false }
+28 verbose url raw ionic
+29 verbose url resolving [ 'https://registry.npmjs.org/', './ionic' ]
+30 verbose url resolved https://registry.npmjs.org/ionic
+31 info trying registry request attempt 1 at 14:22:08
+32 verbose etag "EYROE8GSRND8WOV67ZW6AJERK"
+33 http GET https://registry.npmjs.org/ionic
+34 verbose url raw cordova
+35 verbose url resolving [ 'https://registry.npmjs.org/', './cordova' ]
+36 verbose url resolved https://registry.npmjs.org/cordova
+37 info trying registry request attempt 1 at 14:22:08
+38 verbose etag "3RD2SJ2UCC8MJZUMI047T947U"
+39 http GET https://registry.npmjs.org/cordova
+40 http 200 https://registry.npmjs.org/ionic
+41 silly registry.get cb [ 200,
+41 silly registry.get   { date: 'Mon, 28 Apr 2014 18:21:57 GMT',
+41 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+41 silly registry.get     etag: '"7JUUVNSULC70IW9VT4V4HL8YM"',
+41 silly registry.get     'content-type': 'application/json',
+41 silly registry.get     via: '1.1 varnish',
+41 silly registry.get     'cache-control': 'max-age=1',
+41 silly registry.get     'content-length': '17713',
+41 silly registry.get     'accept-ranges': 'bytes',
+41 silly registry.get     age: '2281',
+41 silly registry.get     'x-served-by': 'cache-v44-ASH, cache-jfk1025-JFK',
+41 silly registry.get     'x-cache': 'MISS, MISS',
+41 silly registry.get     'x-cache-hits': '0, 0',
+41 silly registry.get     'x-timer': 'S1398707036.335216522,VS0,VS3,VE94,VE2280764',
+41 silly registry.get     vary: 'Accept',
+41 silly registry.get     'keep-alive': 'timeout=10, max=50',
+41 silly registry.get     connection: 'Keep-Alive' } ]
+42 silly addNameRange number 2 { name: 'ionic', range: '*', hasData: true }
+43 silly addNameRange versions [ 'ionic',
+43 silly addNameRange   [ '0.9.6',
+43 silly addNameRange     '0.9.8',
+43 silly addNameRange     '0.9.9',
+43 silly addNameRange     '0.9.10',
+43 silly addNameRange     '0.9.11',
+43 silly addNameRange     '0.9.12',
+43 silly addNameRange     '0.9.13',
+43 silly addNameRange     '0.9.14',
+43 silly addNameRange     '0.9.15',
+43 silly addNameRange     '0.9.16',
+43 silly addNameRange     '1.0.0-beta.1',
+43 silly addNameRange     '1.0.0-beta',
+43 silly addNameRange     '1.0.1-beta',
+43 silly addNameRange     '1.0.3-beta',
+43 silly addNameRange     '1.0.4' ] ]
+44 verbose addNamed [ 'ionic', '1.0.4' ]
+45 verbose addNamed [ '1.0.4', '1.0.4' ]
+46 silly lockFile 8d583ae5-ionic-1-0-4 ionic@1.0.4
+47 verbose lock ionic@1.0.4 /Users/whollymacII/.npm/8d583ae5-ionic-1-0-4.lock
+48 silly lockFile ff78a833--npmjs-org-ionic-ionic-1-0-4-tgz https://registry.npmjs.org/ionic/-/ionic-1.0.4.tgz
+49 verbose lock https://registry.npmjs.org/ionic/-/ionic-1.0.4.tgz /Users/whollymacII/.npm/ff78a833--npmjs-org-ionic-ionic-1-0-4-tgz.lock
+50 verbose addRemoteTarball [ 'https://registry.npmjs.org/ionic/-/ionic-1.0.4.tgz',
+50 verbose addRemoteTarball   '2ea1273fc3ae62812f9b1b52a3aaafa3786ab027' ]
+51 info retry fetch attempt 1 at 14:22:08
+52 verbose fetch to= /var/folders/fk/6wcmg805637f03yl2p7q3zn80000gn/T/npm-46610-sDKkbdGZ/1398709328763-0.4351078527979553/tmp.tgz
+53 http GET https://registry.npmjs.org/ionic/-/ionic-1.0.4.tgz
+54 http 200 https://registry.npmjs.org/ionic/-/ionic-1.0.4.tgz
+55 http 200 https://registry.npmjs.org/cordova
+56 silly registry.get cb [ 200,
+56 silly registry.get   { date: 'Mon, 28 Apr 2014 18:21:57 GMT',
+56 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+56 silly registry.get     etag: '"CQ8QU9ZI2U7EXV8DSPNI5PYGU"',
+56 silly registry.get     'content-type': 'application/json',
+56 silly registry.get     via: '1.1 varnish',
+56 silly registry.get     'cache-control': 'max-age=1',
+56 silly registry.get     'content-length': '275440',
+56 silly registry.get     'accept-ranges': 'bytes',
+56 silly registry.get     age: '1511',
+56 silly registry.get     'x-served-by': 'cache-v42-ASH, cache-jfk1029-JFK',
+56 silly registry.get     'x-cache': 'MISS, HIT',
+56 silly registry.get     'x-cache-hits': '0, 1',
+56 silly registry.get     'x-timer': 'S1398700394.593219519,VS0,VS5,VE98,VE8922495',
+56 silly registry.get     vary: 'Accept',
+56 silly registry.get     'keep-alive': 'timeout=10, max=50',
+56 silly registry.get     connection: 'Keep-Alive' } ]
+57 silly addNameRange number 2 { name: 'cordova', range: '*', hasData: true }
+58 silly addNameRange versions [ 'cordova',
+58 silly addNameRange   [ '0.0.1',
+58 silly addNameRange     '0.0.2',
+58 silly addNameRange     '0.0.3',
+58 silly addNameRange     '0.0.4',
+58 silly addNameRange     '0.0.5',
+58 silly addNameRange     '0.0.6',
+58 silly addNameRange     '0.0.7',
+58 silly addNameRange     '0.0.8',
+58 silly addNameRange     '0.0.9',
+58 silly addNameRange     '0.1.0',
+58 silly addNameRange     '0.1.1',
+58 silly addNameRange     '0.1.2',
+58 silly addNameRange     '0.1.3',
+58 silly addNameRange     '0.1.4',
+58 silly addNameRange     '0.1.5',
+58 silly addNameRange     '0.1.6',
+58 silly addNameRange     '0.1.7',
+58 silly addNameRange     '0.1.8',
+58 silly addNameRange     '0.1.9',
+58 silly addNameRange     '0.1.10',
+58 silly addNameRange     '0.1.11',
+58 silly addNameRange     '0.1.12',
+58 silly addNameRange     '0.1.13',
+58 silly addNameRange     '0.1.14',
+58 silly addNameRange     '2.2.0',
+58 silly addNameRange     '2.3.0',
+58 silly addNameRange     '2.3.1',
+58 silly addNameRange     '2.3.2',
+58 silly addNameRange     '2.3.3',
+58 silly addNameRange     '2.3.5',
+58 silly addNameRange     '2.3.6',
+58 silly addNameRange     '2.4.0',
+58 silly addNameRange     '2.4.1',
+58 silly addNameRange     '2.4.2',
+58 silly addNameRange     '2.4.3',
+58 silly addNameRange     '2.4.4',
+58 silly addNameRange     '2.4.5',
+58 silly addNameRange     '2.4.6',
+58 silly addNameRange     '2.4.7',
+58 silly addNameRange     '2.4.8',
+58 silly addNameRange     '2.4.9',
+58 silly addNameRange     '2.4.10',
+58 silly addNameRange     '2.5.0',
+58 silly addNameRange     '2.5.2',
+58 silly addNameRange     '2.5.3',
+58 silly addNameRange     '2.5.4',
+58 silly addNameRange     '2.5.5',
+58 silly addNameRange     '2.6.0',
+58 silly addNameRange     '2.6.1',
+58 silly addNameRange     '2.6.2',
+58 silly addNameRange     '2.7.0-rc.1',
+58 silly addNameRange     '2.7.1-rc.1',
+58 silly addNameRange     '2.7.2',
+58 silly addNameRange     '2.7.3',
+58 silly addNameRange     '2.7.4',
+58 silly addNameRange     '2.8.0',
+58 silly addNameRange     '2.8.1',
+58 silly addNameRange     '2.8.2',
+58 silly addNameRange     '2.8.3',
+58 silly addNameRange     '2.8.4',
+58 silly addNameRange     '2.8.5',
+58 silly addNameRange     '2.8.6',
+58 silly addNameRange     '2.8.7',
+58 silly addNameRange     '2.8.8',
+58 silly addNameRange     '2.8.9',
+58 silly addNameRange     '2.8.10',
+58 silly addNameRange     '2.8.11',
+58 silly addNameRange     '2.8.12',
+58 silly addNameRange     '2.8.13',
+58 silly addNameRange     '2.8.14',
+58 silly addNameRange     '2.8.15',
+58 silly addNameRange     '2.8.16',
+58 silly addNameRange     '2.8.17',
+58 silly addNameRange     '2.8.18',
+58 silly addNameRange     '2.8.19',
+58 silly addNameRange     '2.8.20',
+58 silly addNameRange     '2.8.21',
+58 silly addNameRange     '2.8.22',
+58 silly addNameRange     '2.8.23',
+58 silly addNameRange     '2.8.24',
+58 silly addNameRange     '2.8.25',
+58 silly addNameRange     '2.9.0',
+58 silly addNameRange     '2.9.1',
+58 silly addNameRange     '2.9.2',
+58 silly addNameRange     '2.9.3',
+58 silly addNameRange     '2.9.4',
+58 silly addNameRange     '2.9.5',
+58 silly addNameRange     '2.9.6',
+58 silly addNameRange     '2.9.7',
+58 silly addNameRange     '3.0.0-rc1',
+58 silly addNameRange     '3.0.0-rc1-1',
+58 silly addNameRange     '3.0.0-rc1-3',
+58 silly addNameRange     '3.0.0',
+58 silly addNameRange     '3.0.1',
+58 silly addNameRange     '3.0.2',
+58 silly addNameRange     '3.0.3',
+58 silly addNameRange     '3.0.4',
+58 silly addNameRange     '3.0.5',
+58 silly addNameRange     '3.0.6',
+58 silly addNameRange     '3.0.7',
+58 silly addNameRange     '3.0.8',
+58 silly addNameRange     '3.0.9',
+58 silly addNameRange     '3.0.10',
+58 silly addNameRange     '3.1.0-0.1.0',
+58 silly addNameRange     '3.1.0-0.2.0',
+58 silly addNameRange     '3.2.0-rc.1',
+58 silly addNameRange     '3.2.0-0.1.0',
+58 silly addNameRange     '3.2.0-0.2.0',
+58 silly addNameRange     '3.2.0-0.3.0',
+58 silly addNameRange     '3.2.0-0.4.0',
+58 silly addNameRange     '3.3.0-rc.1',
+58 silly addNameRange     '3.3.0-0.1.1',
+58 silly addNameRange     '3.3.1-0.1.2',
+58 silly addNameRange     '2.9.0-rc1',
+58 silly addNameRange     '3.3.1-0.3.0',
+58 silly addNameRange     '3.3.1-0.3.1',
+58 silly addNameRange     '3.3.1-0.4.1',
+58 silly addNameRange     '3.3.1-0.4.2',
+58 silly addNameRange     '3.4.0-0.1.0',
+58 silly addNameRange     '3.4.0-0.1.1',
+58 silly addNameRange     '3.4.0-0.1.2',
+58 silly addNameRange     '3.4.0-0.1.3',
+58 silly addNameRange     '0.0.0-fake',
+58 silly addNameRange     '3.4.1-0.1.0' ] ]
+59 verbose addNamed [ 'cordova', '3.4.1-0.1.0' ]
+60 verbose addNamed [ '3.4.1-0.1.0', '3.4.1-0.1.0' ]
+61 silly lockFile 052866ff-cordova-3-4-1-0-1-0 cordova@3.4.1-0.1.0
+62 verbose lock cordova@3.4.1-0.1.0 /Users/whollymacII/.npm/052866ff-cordova-3-4-1-0-1-0.lock
+63 verbose tar unpack /var/folders/fk/6wcmg805637f03yl2p7q3zn80000gn/T/npm-46610-sDKkbdGZ/1398709328763-0.4351078527979553/tmp.tgz
+64 silly lockFile dbb15bb7-28763-0-4351078527979553-package tar:///var/folders/fk/6wcmg805637f03yl2p7q3zn80000gn/T/npm-46610-sDKkbdGZ/1398709328763-0.4351078527979553/package
+65 verbose lock tar:///var/folders/fk/6wcmg805637f03yl2p7q3zn80000gn/T/npm-46610-sDKkbdGZ/1398709328763-0.4351078527979553/package /Users/whollymacII/.npm/dbb15bb7-28763-0-4351078527979553-package.lock
+66 silly lockFile bbf8f123-28763-0-4351078527979553-tmp-tgz tar:///var/folders/fk/6wcmg805637f03yl2p7q3zn80000gn/T/npm-46610-sDKkbdGZ/1398709328763-0.4351078527979553/tmp.tgz
+67 verbose lock tar:///var/folders/fk/6wcmg805637f03yl2p7q3zn80000gn/T/npm-46610-sDKkbdGZ/1398709328763-0.4351078527979553/tmp.tgz /Users/whollymacII/.npm/bbf8f123-28763-0-4351078527979553-tmp-tgz.lock
+68 silly gunzTarPerm modes [ '755', '644' ]
+69 silly gunzTarPerm extractEntry package.json
+70 silly gunzTarPerm extractEntry .npmignore
+71 silly gunzTarPerm extractEntry README.md
+72 silly gunzTarPerm extractEntry LICENSE
+73 silly gunzTarPerm extractEntry .gitattributes
+74 silly gunzTarPerm extractEntry bin/ionic
+75 silly gunzTarPerm extractEntry lib/ionic.js
+76 silly gunzTarPerm extractEntry lib/ionic/build.js
+77 silly gunzTarPerm extractEntry lib/ionic/login.js
+78 silly gunzTarPerm extractEntry lib/ionic/package.js
+79 silly gunzTarPerm extractEntry lib/ionic/platform.js
+80 silly gunzTarPerm extractEntry lib/ionic/emulate.js
+81 silly gunzTarPerm extractEntry lib/ionic/project.js
+82 silly gunzTarPerm extractEntry lib/ionic/run.js
+83 silly gunzTarPerm extractEntry lib/ionic/start.js
+84 silly gunzTarPerm extractEntry lib/ionic/stats.js
+85 silly gunzTarPerm extractEntry lib/ionic/task.js
+86 silly gunzTarPerm extractEntry lib/ionic/config.js
+87 silly gunzTarPerm extractEntry lib/ionic/upload.js
+88 silly gunzTarPerm extractEntry lib/ionic/private.js
+89 silly lockFile dbb15bb7-28763-0-4351078527979553-package tar:///var/folders/fk/6wcmg805637f03yl2p7q3zn80000gn/T/npm-46610-sDKkbdGZ/1398709328763-0.4351078527979553/package
+90 silly lockFile dbb15bb7-28763-0-4351078527979553-package tar:///var/folders/fk/6wcmg805637f03yl2p7q3zn80000gn/T/npm-46610-sDKkbdGZ/1398709328763-0.4351078527979553/package
+91 silly lockFile 052866ff-cordova-3-4-1-0-1-0 cordova@3.4.1-0.1.0
+92 silly lockFile 052866ff-cordova-3-4-1-0-1-0 cordova@3.4.1-0.1.0
+93 silly lockFile bbf8f123-28763-0-4351078527979553-tmp-tgz tar:///var/folders/fk/6wcmg805637f03yl2p7q3zn80000gn/T/npm-46610-sDKkbdGZ/1398709328763-0.4351078527979553/tmp.tgz
+94 silly lockFile bbf8f123-28763-0-4351078527979553-tmp-tgz tar:///var/folders/fk/6wcmg805637f03yl2p7q3zn80000gn/T/npm-46610-sDKkbdGZ/1398709328763-0.4351078527979553/tmp.tgz
+95 silly lockFile de8d9fad-cordova cordova@
+96 silly lockFile de8d9fad-cordova cordova@
+97 verbose tar pack [ '/Users/whollymacII/.npm/ionic/1.0.4/package.tgz',
+97 verbose tar pack   '/var/folders/fk/6wcmg805637f03yl2p7q3zn80000gn/T/npm-46610-sDKkbdGZ/1398709328763-0.4351078527979553/package' ]
+98 verbose tarball /Users/whollymacII/.npm/ionic/1.0.4/package.tgz
+99 verbose folder /var/folders/fk/6wcmg805637f03yl2p7q3zn80000gn/T/npm-46610-sDKkbdGZ/1398709328763-0.4351078527979553/package
+100 silly lockFile dbb15bb7-28763-0-4351078527979553-package tar:///var/folders/fk/6wcmg805637f03yl2p7q3zn80000gn/T/npm-46610-sDKkbdGZ/1398709328763-0.4351078527979553/package
+101 verbose lock tar:///var/folders/fk/6wcmg805637f03yl2p7q3zn80000gn/T/npm-46610-sDKkbdGZ/1398709328763-0.4351078527979553/package /Users/whollymacII/.npm/dbb15bb7-28763-0-4351078527979553-package.lock
+102 silly lockFile 9e9acb93-acII-npm-ionic-1-0-4-package-tgz tar:///Users/whollymacII/.npm/ionic/1.0.4/package.tgz
+103 verbose lock tar:///Users/whollymacII/.npm/ionic/1.0.4/package.tgz /Users/whollymacII/.npm/9e9acb93-acII-npm-ionic-1-0-4-package-tgz.lock
+104 silly lockFile dbb15bb7-28763-0-4351078527979553-package tar:///var/folders/fk/6wcmg805637f03yl2p7q3zn80000gn/T/npm-46610-sDKkbdGZ/1398709328763-0.4351078527979553/package
+105 silly lockFile dbb15bb7-28763-0-4351078527979553-package tar:///var/folders/fk/6wcmg805637f03yl2p7q3zn80000gn/T/npm-46610-sDKkbdGZ/1398709328763-0.4351078527979553/package
+106 silly lockFile 9e9acb93-acII-npm-ionic-1-0-4-package-tgz tar:///Users/whollymacII/.npm/ionic/1.0.4/package.tgz
+107 silly lockFile 9e9acb93-acII-npm-ionic-1-0-4-package-tgz tar:///Users/whollymacII/.npm/ionic/1.0.4/package.tgz
+108 silly lockFile 336f9e0f-llymacII-npm-ionic-1-0-4-package /Users/whollymacII/.npm/ionic/1.0.4/package
+109 verbose lock /Users/whollymacII/.npm/ionic/1.0.4/package /Users/whollymacII/.npm/336f9e0f-llymacII-npm-ionic-1-0-4-package.lock
+110 silly lockFile 336f9e0f-llymacII-npm-ionic-1-0-4-package /Users/whollymacII/.npm/ionic/1.0.4/package
+111 silly lockFile 336f9e0f-llymacII-npm-ionic-1-0-4-package /Users/whollymacII/.npm/ionic/1.0.4/package
+112 verbose tar unpack /Users/whollymacII/.npm/ionic/1.0.4/package.tgz
+113 silly lockFile a9ab20e1-llymacII-npm-ionic-1-0-4-package tar:///Users/whollymacII/.npm/ionic/1.0.4/package
+114 verbose lock tar:///Users/whollymacII/.npm/ionic/1.0.4/package /Users/whollymacII/.npm/a9ab20e1-llymacII-npm-ionic-1-0-4-package.lock
+115 silly lockFile 9e9acb93-acII-npm-ionic-1-0-4-package-tgz tar:///Users/whollymacII/.npm/ionic/1.0.4/package.tgz
+116 verbose lock tar:///Users/whollymacII/.npm/ionic/1.0.4/package.tgz /Users/whollymacII/.npm/9e9acb93-acII-npm-ionic-1-0-4-package-tgz.lock
+117 silly gunzTarPerm modes [ '755', '644' ]
+118 silly gunzTarPerm extractEntry package.json
+119 silly gunzTarPerm extractEntry .npmignore
+120 silly gunzTarPerm extractEntry README.md
+121 silly gunzTarPerm extractEntry LICENSE
+122 silly gunzTarPerm extractEntry .gitattributes
+123 silly gunzTarPerm extractEntry bin/ionic
+124 silly gunzTarPerm extractEntry lib/ionic.js
+125 silly gunzTarPerm extractEntry lib/ionic/build.js
+126 silly gunzTarPerm extractEntry lib/ionic/login.js
+127 silly gunzTarPerm extractEntry lib/ionic/package.js
+128 silly gunzTarPerm extractEntry lib/ionic/platform.js
+129 silly gunzTarPerm extractEntry lib/ionic/emulate.js
+130 silly gunzTarPerm extractEntry lib/ionic/project.js
+131 silly gunzTarPerm extractEntry lib/ionic/run.js
+132 silly gunzTarPerm extractEntry lib/ionic/start.js
+133 silly gunzTarPerm extractEntry lib/ionic/stats.js
+134 silly gunzTarPerm extractEntry lib/ionic/task.js
+135 silly gunzTarPerm extractEntry lib/ionic/config.js
+136 silly gunzTarPerm extractEntry lib/ionic/upload.js
+137 silly gunzTarPerm extractEntry lib/ionic/private.js
+138 silly lockFile a9ab20e1-llymacII-npm-ionic-1-0-4-package tar:///Users/whollymacII/.npm/ionic/1.0.4/package
+139 silly lockFile a9ab20e1-llymacII-npm-ionic-1-0-4-package tar:///Users/whollymacII/.npm/ionic/1.0.4/package
+140 silly lockFile 9e9acb93-acII-npm-ionic-1-0-4-package-tgz tar:///Users/whollymacII/.npm/ionic/1.0.4/package.tgz
+141 silly lockFile 9e9acb93-acII-npm-ionic-1-0-4-package-tgz tar:///Users/whollymacII/.npm/ionic/1.0.4/package.tgz
+142 verbose chmod /Users/whollymacII/.npm/ionic/1.0.4/package.tgz 644
+143 verbose chown /Users/whollymacII/.npm/ionic/1.0.4/package.tgz [ 501, 20 ]
+144 silly lockFile ff78a833--npmjs-org-ionic-ionic-1-0-4-tgz https://registry.npmjs.org/ionic/-/ionic-1.0.4.tgz
+145 silly lockFile ff78a833--npmjs-org-ionic-ionic-1-0-4-tgz https://registry.npmjs.org/ionic/-/ionic-1.0.4.tgz
+146 silly lockFile 8d583ae5-ionic-1-0-4 ionic@1.0.4
+147 silly lockFile 8d583ae5-ionic-1-0-4 ionic@1.0.4
+148 silly lockFile 966fc04a-ionic ionic@
+149 silly lockFile 966fc04a-ionic ionic@
+150 silly resolved [ { name: 'cordova',
+150 silly resolved     version: '3.4.1-0.1.0',
+150 silly resolved     preferGlobal: 'true',
+150 silly resolved     description: 'Cordova command line interface tool',
+150 silly resolved     main: 'cordova',
+150 silly resolved     engines: { node: '>=0.9.9' },
+150 silly resolved     engineStrict: true,
+150 silly resolved     bin: { cordova: './bin/cordova' },
+150 silly resolved     scripts: { test: 'jasmine-node --color spec e2e' },
+150 silly resolved     repository:
+150 silly resolved      { type: 'git',
+150 silly resolved        url: 'https://git-wip-us.apache.org/repos/asf/cordova-cli.git' },
+150 silly resolved     bugs:
+150 silly resolved      { url: 'https://issues.apache.org/jira/browse/CB',
+150 silly resolved        email: 'dev@cordova.apache.org' },
+150 silly resolved     keywords: [ 'cordova', 'client', 'cli' ],
+150 silly resolved     dependencies:
+150 silly resolved      { elementtree: '0.1.5',
+150 silly resolved        plugman: '0.21.0',
+150 silly resolved        'plist-with-patches': '0.5.x',
+150 silly resolved        xcode: '0.6.6',
+150 silly resolved        shelljs: '0.1.x',
+150 silly resolved        request: '~2.21.0',
+150 silly resolved        semver: '2.0.x',
+150 silly resolved        tar: '0.1.x',
+150 silly resolved        npmconf: '0.1.x',
+150 silly resolved        q: '~0.9',
+150 silly resolved        optimist: '0.6.0',
+150 silly resolved        mime: '~1.2.11',
+150 silly resolved        underscore: '1.4.4' },
+150 silly resolved     devDependencies: { 'jasmine-node': '1.13.x' },
+150 silly resolved     author: { name: 'Anis Kadri' },
+150 silly resolved     contributors:
+150 silly resolved      [ [Object],
+150 silly resolved        [Object],
+150 silly resolved        [Object],
+150 silly resolved        [Object],
+150 silly resolved        [Object],
+150 silly resolved        [Object],
+150 silly resolved        [Object],
+150 silly resolved        [Object],
+150 silly resolved        [Object],
+150 silly resolved        [Object],
+150 silly resolved        [Object],
+150 silly resolved        [Object],
+150 silly resolved        [Object],
+150 silly resolved        [Object],
+150 silly resolved        [Object],
+150 silly resolved        [Object],
+150 silly resolved        [Object],
+150 silly resolved        [Object],
+150 silly resolved        [Object],
+150 silly resolved        [Object],
+150 silly resolved        [Object],
+150 silly resolved        [Object],
+150 silly resolved        [Object],
+150 silly resolved        [Object] ],
+150 silly resolved     license: 'Apache version 2.0',
+150 silly resolved     readme: '<!--\n#\n# Licensed to the Apache Software Foundation (ASF) under one\n# or more contributor license agreements.  See the NOTICE file\n# distributed with this work for additional information\n# regarding copyright ownership.  The ASF licenses this file\n# to you under the Apache License, Version 2.0 (the\n# "License"); you may not use this file except in compliance\n# with the License.  You may obtain a copy of the License at\n#\n# http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing,\n# software distributed under the License is distributed on an\n# "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY\n#  KIND, either express or implied.  See the License for the\n# specific language governing permissions and limitations\n# under the License.\n#\n-->\n\n# cordova-cli\n\n> The command line tool to build, deploy and manage [Cordova](http://cordova.io)-based applications.\n\n[Apache Cordova](http://cordova.io) allows for building native mobile applications using HTML, CSS and JavaScript. This tool helps with management of multi-platform Cordova applications as well as Cordova plugin integration.\n\nCheck out the [Getting Started guides](http://cordova.apache.org/docs/en/edge/) for more details on how to work with Cordova sub-projects.\n\n# Supported Cordova Platforms\n\n- Amazon Fire OS\n- Android\n- BlackBerry 10\n- iOS\n- Ubuntu\n- Windows Phone 7 &amp; 8\n- Windows 8\n\n> **Note: Windows Phone 7 is deprecated as a target platform. Support will be removed in version 3.7.0, approx. May 2014.**\n\n# Requirements\n\n* [Node.js](http://nodejs.org/)\n* SDKs for each platform you wish to support:\n  - **Android**: [Android SDK](http://developer.android.com) - **NOTE** This tool\n    will not work unless you have the absolute latest updates for all\n    Android SDK components. Also you will need the SDK\'s `tools` and `platform-tools` directories on your __system path__ otherwise Android support will fail.\n  - [Amazon Fire OS SDK](https://developer.amazon.com/sdk/fire/IntegratingAWV.html#installawv) - **NOTE** This tool will not work unless you have Android SDK installed and paths are updated as mentioned above. In addition you need to install AmazonWebView SDK and copy awv_interface.jar to corodva-amazon-fireos/framework/libs folder. If libs folder does not exist then create one.\n  - [Windows Phone SDK](http://dev.windowsphone.com/en-us/downloadsdk) - **NOTE** This tool will not work unless you have `msbuild` on your __system path__ otherwise Windows Phone support will fail (`msbuild.exe` is generally located in `C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319`).\n  - **BlackBerry 10**: [BlackBerry 10 WebWorks SDK](http://developer.blackberry.com/html5/download/). Make sure you have the `dependencies/tools/bin` folder inside the SDK directory added to your path!\n  - **iOS**: [iOS SDK](http://developer.apple.com) with the latest `Xcode` and `Xcode Command Line Tools`\n  - **Windows Phone**: [Windows Phone SDK](http://dev.windowsphone.com/en-us/downloadsdk) - **NOTE** This tool will not work unless you have `msbuild` on your __system path__ otherwise Windows Phone support will fail (`msbuild.exe` is generally located in `C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319`).\n\n`cordova-cli` has been tested on **Mac OS X**, **Linux**, **Windows 7**, and **Windows 8**.\n\nPlease note that some platforms have OS restrictions.  For example, you cannot build for Windows 8 or Windows Phone 7 & 8 on Mac OS X, nor can you build for iOS on Windows.\n\n# Install\n\nUbuntu packages are available in a PPA for Ubuntu 13.10 (Saucy) (the current release) as well as 14.04 (Trusty) (under development).\n\n    sudo apt-add-repository ppa:cordova-ubuntu/ppa\n    sudo apt-get update\n    sudo apt-get install cordova-cli\n    npm install -g cordova\n\nTo build an application for the Ubuntu platform, the following extra packages are required:\n\n    sudo apt-get install cmake debhelper libx11-dev libicu-dev pkg-config qtbase5-dev qtchooser qtdeclarative5-dev qtfeedback5-dev qtlocation5-dev qtmultimedia5-dev qtpim5-dev qtsensors5-dev qtsystems5-dev\n\n\n## Installing from master\n\nYou\'ll need to install both [CLI](https://git-wip-us.apache.org/repos/asf/cordova-cli.git) and [Plugman](https://git-wip-us.apache.org/repos/asf/cordova-plugman.git) from `git`. Running the *npm version* of one and *(git) master version* of the other is likely to end with you suffering.\n\nTo avoid using sudo, see [Get away from sudo: npm without root](http://justjs.com/posts/npm-link-developing-your-own-npm-modules-without-tears).\n\nRun the following commands:\n\n    git clone https://git-wip-us.apache.org/repos/asf/cordova-plugman.git\n    cd cordova-plugman\n    npm install\n    sudo npm link\n    cd ..\n    git clone https://git-wip-us.apache.org/repos/asf/cordova-cli.git\n    cd cordova-cli\n    npm install\n    sudo npm link\n    npm link plugman\n\nNow the `cordova` and `plugman` in your path are the local git versions. Don\'t forget to keep them up to date!\n\n## Installing on Ubuntu\n\n    apt-get install cordova-cli\n\n\n# Getting Started\n\n`cordova-cli` has a single global `create` command that creates new cordova projects into a specified directory. Once you create a project, `cd` into it and you can execute a variety of project-level commands. Completely inspired by git\'s interface.\n\n## Global Commands\n\n- `help` display a help page with all available commands\n- `create <directory> [<id> [<name>]]` create a new cordova project with optional name and id (package name, reverse-domain style)\n\n<a name="project_commands" />\n## Project Commands\n\n- `platform [ls | list]` list all platforms for which the project will build\n- `platform add <platform> [<platform> ...]` add one (or more) platforms as a build target for the project\n- `platform [rm | remove] <platform> [<platform> ...]` removes one (or more) platform build targets from the project\n- `platform [up | update] <platform> ` - updates the Cordova version used for the given platform\n- `plugin [ls | list]` list all plugins included in the project\n- `plugin add <path-to-plugin> [<path-to-plugin> ...]` add one (or more) plugins to the project\n- `plugin [rm | remove] <plugin-name> [<plugin-name> ...]` remove one (or more) plugins from the project.\n- `plugin search [<keyword1> <keyword2> ...]` search the plugin registry for plugins matching the list of keywords\n- `prepare [platform...]` copies files into the specified platforms, or all platforms. It is then ready for building by `Eclipse`, `Xcode`, etc.\n- `compile [platform...]` compiles the app into a binary for each targetted platform. With no parameters, builds for all platforms, otherwise builds for the specified platforms.\n- `build [<platform> [<platform> [...]]]` an alias for `cordova prepare` followed by `cordova compile`\n- `emulate [<platform> [<platform> [...]]]` launch emulators and deploy app to them. With no parameters emulates for all platforms added to the project, otherwise emulates for the specified platforms\n- `serve [port]` launch a local web server allowing you to access each  platform\'s www directory on the given port (default 8000).\n\n### Optional Flags\n\n- `-d` or `--verbose` will pipe out more verbose output to your shell. You can also subscribe to `log` and `warn` events if you are consuming `cordova-cli` as a node module by calling `cordova.on(\'log\', function() {})` or `cordova.on(\'warn\', function() {})`.\n- `-v` or `--version` will print out the version of your `cordova-cli` install.\n\n# Project Directory Structure\nA Cordova application built with `cordova-cli` will have the following directory structure:\n\n    myApp/\n    |-- config.xml\n    |-- hooks/\n    |-- merges/\n    | | |-- android/\n    | | |-- blackberry10/\n    | | `-- ios/\n    |-- www/\n    |-- platforms/\n    | |-- android/\n    | |-- blackberry10/\n    | `-- ios/\n    `-- plugins/\n\n## hooks/\nThis directory may contains scripts used to customize cordova commands. This\ndirectory used to exist at `.cordova/hooks`, but has now been moved to the\nproject root. Any scripts you add to these directories will be executed before\nand after the commands corresponding to the directory name. Useful for\nintegrating your own build systems or integrating with version control systems.\n\nRefer to [templates/hooks-README.md](templates/hooks-README.md) for more information.\n\n## merges/\nPlatform-specific web assets (HTML, CSS and JavaScript files) are contained within appropriate subfolders in this directory. These are deployed during a `prepare` to the appropriate native directory.  Files placed under `merges/` will override matching files in the `www/` folder for the relevant platform. A quick example, assuming a project structure of:\n\n    merges/\n    |-- ios/\n    | `-- app.js\n    |-- android/\n    | `-- android.js\n    www/\n    `-- app.js\n\nAfter building the Android and iOS projects, the Android application will contain both `app.js` and `android.js`. However, the iOS application will only contain an `app.js`, and it will be the one from `merges/ios/app.js`, overriding the "common" `app.js` located inside `www/`.\n\n## www/\n\nContains the project\'s web artifacts, such as .html, .css and .js files. These are your main application assets. They will be copied on a `cordova prepare` to each platform\'s www directory.\n\n### Your Blanket: config.xml\n\nThis file is what you should be editing to modify your application\'s metadata. Any time you run any cordova-cli commands, the tool will look at the contents of `config.xml` and use all relevant info from this file to define native application information. cordova-cli supports changing your application\'s data via the following elements inside the `config.xml` file:\n\n- The user-facing name can be modified via the contents of the `<name>` element.\n- The package name (AKA bundle identifier or application id) can be modified via the `id` attribute from the top-level `<widget>` element.\n- The version can be modified via the `version` attribute from the top-level `<widget>` element.\n- The whitelist can be modified using the `<access>` elements. Make sure the `origin` attribute of your `<access>` element points to a valid URL (you can use `*` as wildcard). For more information on the whitelisting syntax, see the [docs.phonegap.com](http://docs.phonegap.com/en/2.2.0/guide_whitelist_index.md.html#Domain%20Whitelist%20Guide). You can use either attribute `uri` ([BlackBerry-proprietary](https://developer.blackberry.com/html5/documentation/access_element_834677_11.html)) or `origin` ([standards-compliant](http://www.w3.org/TR/widgets-access/#attributes)) to denote the domain.\n- Platform-specific preferences can be customized via `<preference>` tags. See [docs.phonegap.com](http://docs.phonegap.com/en/2.3.0/guide_project-settings_index.md.html#Project%20Settings) for a list of preferences you can use.\n- The entry/start page for your application can be defined via the `<content src>` element + attribute.\n\n## platforms/\nPlatforms added to your application will have the native application project structures laid out within this directory.\n\n## plugins/\nAny added plugins will be extracted or copied into this directory.\n\n# Hooks\n\nProjects created by cordova-cli have `before` and `after` hooks for each [project command](#project_commands).\n\nThere are two types of hooks: project-specific ones and module-level ones. Both of these types of hooks receive the project root folder as a parameter.\n\n## Project-specific Hooks\n\nThese are located under the `hooks` directory in the root of your cordova project. Any scripts you add to these directories will be executed before and after the appropriate commands. Useful for integrating your own build systems or integrating with version control systems. __Remember__: make your scripts executable.\n\n### Examples\n\n- [`before_build` hook for jade template compiling](https://gist.github.com/4100866) courtesy of [dpogue](http://github.com/dpogue)\n\n## Module-level Hooks\n\nIf you are using cordova-cli as a module within a larger **Node** application, you can also use the standard `EventEmitter` methods to attach to the events. The events include `before_build`, `before_compile`, `before_docs`, `before_emulate`, `before_run`, `before_platform_add`, `before_library_download`, `before_platform_ls`, `before_platform_rm`, `before_plugin_add`, `before_plugin_ls`, `before_plugin_rm` and `before_prepare`. There is also a `library_download` progress event. Additionally, there are `after_` flavours of all the above events.\n\nOnce you `require(\'cordova\')` in your Node project, you will have the usual `EventEmitter` methods available (`on`, `off` or `removeListener`, `removeAllListeners`, and `emit` or `trigger`).\n\n# Examples\n\n## Creating a new cordova project\nThis example shows how to create a project from scratch named KewlApp with iOS and Android platform support, and includes a plugin named Kewlio. The project will live in ~/KewlApp\n\n    cordova create ~/KewlApp KewlApp\n    cd ~/KewlApp\n    cordova platform add ios android\n    cordova plugin add http://example.org/Kewlio-1.2.3.tar.gz\n    cordova build\n\nThe directory structure of KewlApp now looks like this:\n\n    KewlApp/\n    |-- hooks/\n    |-- merges/\n    | |-- android/\n    | `-- ios/\n    |-- www/\n    | `-- index.html\n    |-- platforms/\n    | |-- android/\n    | | `-- …\n    | `-- ios/\n    |   `-- …\n    `-- plugins/\n      `-- Kewlio/\n\n# Contributing\n\n## Running Tests\n\n    npm test\n\n## TO-DO + Issues\n\nPlease check [Cordova issues with the CLI Component](http://issues.cordova.io). If you find issues with this tool, please be so kind as to include relevant information needed to debug issues such as:\n\n- Your operating system and version\n- The application name, directory location, and identifier used with `create`\n- Which mobile SDKs you have installed, and their versions. Related to this: which `Xcode` version if you are submitting issues related to iOS\n- Any error stack traces you received\n\n## Contributors\n\nThanks to everyone for contributing! For a list of people involved, please see the `package.json` file.\n\n\n# Known Issues and Troubleshooting\n\n## Any OS\n\n### Proxy Settings\n\n`cordova-cli` will use `npm`\'s proxy settings. If you downloaded cordova-cli via `npm` and are behind a proxy, chances are cordova-cli should work for you as it will use those settings in the first place. Make sure that the `https-proxy` and `proxy` npm config variables are set properly. See [npm\'s configuration documentation](https://npmjs.org/doc/config.html) for more information.\n\n## Windows\n\n### Trouble Adding Android as a Platform\n\nWhen trying to add a platform on a Windows machine if you run into the following error message:\n    cordova library for "android" already exists. No need to download. Continuing.\n    Checking if platform "android" passes minimum requirements...\n    Checking Android requirements...\n    Running "android list target" (output to follow)\n\n    Error: The command `android` failed. Make sure you have the latest Android SDK installed, and the `android` command (inside the tools/ folder) added t\n    o your path. Output:\n    at C:\\Users\\me\\AppData\\Roaming\\npm\\node_modules\\cordova\\src\\platform.js:185:42\n    at C:\\Users\\me\\AppData\\Roaming\\npm\\node_modules\\cordova\\src\\metadata\\android_parser.js:50:13\n    at C:\\Users\\me\\AppData\\Roaming\\npm\\node_modules\\cordova\\node_modules\\shelljs\\shell.js:1707:7\n    at exithandler (child_process.js:633:7)\n    at ChildProcess.errorhandler (child_process.js:649:5)\n    at ChildProcess.EventEmitter.emit (events.js:95:17)\n    at Process.ChildProcess._handle.onexit (child_process.js:787:12)\n\nrun the command `android list target`.  If you see:\n\n    \'xcopy\' is not recognized as an internal or external command,\n    operable program or batch file.\n\nat the beginning of the command output, it means you will need to fix your Windows Path variable to include xcopy. This location is typically under C:\\Windows\\System32.\n\n## Windows 8\n\nWindows 8 support does not include the ability to launch/run/emulate, so you will need to open **Visual Studio** to see your app live.  You are still able to use the following commands with windows8:\n\n- `platform add windows8`\n- `platform remove windows8`\n- `prepare windows8`\n- `compile windows8`\n- `build windows8`\n\nTo run your app, you will need to open the `.sln` in the `platforms/windows8` folder using **Visual Studio 2012**.\n\n**Visual Studio** will tell you to reload the project if you run any of the above commands while the project is loaded.\n\n## Amazon Fire OS\n\nAmazon Fire OS does not include the ability to emulate. You are still able to use the following commands with Amazon Fire OS\n\n- `platform add amazon-fireos`\n- `platform remove amazon-fireos`\n- `prepare amazon-fireos`\n- `compile amazon-fireos`\n- `build amazon-fireos`\n\n## Ubuntu\n\nThe initial release of cordova-ubuntu does not support building applications for armhf devices automatically. It is possible to produce applications and click packages in a few steps though.\n\nThis bug report documents the issue and solutions for it: https://bugs.launchpad.net/ubuntu/+source/cordova-ubuntu/+bug/1260500 A future release will let developers cross-compile armhf click packages directly from an x86 desktop.\n\n## Firefox OS\n\nFirefox OS does not include the ability to emulate, run and serve. After building, you will have to open the firefoxos platform directory of your app in the App Manager that comes with every firefox browser. \n',
+150 silly resolved     readmeFilename: 'README.md',
+150 silly resolved     _id: 'cordova@3.4.1-0.1.0',
+150 silly resolved     _from: 'cordova@' },
+150 silly resolved   { name: 'ionic',
+150 silly resolved     version: '1.0.4',
+150 silly resolved     preferGlobal: true,
+150 silly resolved     description: 'A tool for creating and building Ionic Framework mobile apps.',
+150 silly resolved     homepage: 'http://ionicframework.com/',
+150 silly resolved     bin: { ionic: 'bin/ionic' },
+150 silly resolved     keywords:
+150 silly resolved      [ 'ionic',
+150 silly resolved        'ionic framework',
+150 silly resolved        'mobile',
+150 silly resolved        'html5',
+150 silly resolved        'cordova',
+150 silly resolved        'phonegap' ],
+150 silly resolved     repository:
+150 silly resolved      { type: 'git',
+150 silly resolved        url: 'https://github.com/driftyco/ionic-cli.git' },
+150 silly resolved     author: { name: 'Max Lynch', email: 'max@drifty.com' },
+150 silly resolved     license: 'MIT',
+150 silly resolved     dependencies:
+150 silly resolved      { archiver: '0.5.1',
+150 silly resolved        'event-stream': '3.0.x',
+150 silly resolved        'form-data': '~0.1.0',
+150 silly resolved        ncp: '0.4.2',
+150 silly resolved        optimist: '0.6.0',
+150 silly resolved        prompt: '0.2.12',
+150 silly resolved        request: '2.27.0',
+150 silly resolved        shelljs: '0.2.6',
+150 silly resolved        unzip: '0.1.9',
+150 silly resolved        colors: '^0.6.2',
+150 silly resolved        q: '^1.0.1',
+150 silly resolved        npm: '^1.4.6' },
+150 silly resolved     readme: 'Ionic-Cli\n=========\n\nThe Ionic Framework command line utility makes it easy to start, build, run, and emulate [Ionic](http://ionicframework.com/) apps. In the future, it will also have support for our mobile development services and tools that make Ionic even more powerful.\n\n## Installing\n\n```bash\n$ sudo npm install -g ionic\n```\n\n## Starting an Ionic App\n\n```bash\n$ ionic start myApp\n```\n\n## Adding a platform target\n\n```bash\n$ ionic platform ios android\n```\n\n## Building your app\n\n```bash\n$ ionic build ios\n```\n\n## Emulating your app\n\n```bash\n$ ionic emulate ios\n```\n\n## Running your app\n\n```bash\n$ ionic run ios\n```\n\nIonic uses Cordova underneath, so you can also substitute Cordova commands to prepare/build/emulate/run, or to add additional plugins.\n\nNote: we occasionally anonymous usage statistics to the Ionic team to make the tool better.\n',
+150 silly resolved     readmeFilename: 'README.md',
+150 silly resolved     bugs: { url: 'https://github.com/driftyco/ionic-cli/issues' },
+150 silly resolved     _id: 'ionic@1.0.4',
+150 silly resolved     dist: { shasum: '60ce40123cfe3464c84b06e74cd0051b6518d9b1' },
+150 silly resolved     _from: 'ionic@',
+150 silly resolved     _resolved: 'https://registry.npmjs.org/ionic/-/ionic-1.0.4.tgz' } ]
+151 info install cordova@3.4.1-0.1.0 into /usr/local/lib
+152 info install ionic@1.0.4 into /usr/local/lib
+153 info installOne cordova@3.4.1-0.1.0
+154 info installOne ionic@1.0.4
+155 info /usr/local/lib/node_modules/cordova unbuild
+156 info /usr/local/lib/node_modules/ionic unbuild
+157 verbose tar unpack /Users/whollymacII/.npm/cordova/3.4.1-0.1.0/package.tgz
+158 silly lockFile 9557e84b-r-local-lib-node-modules-cordova tar:///usr/local/lib/node_modules/cordova
+159 verbose lock tar:///usr/local/lib/node_modules/cordova /Users/whollymacII/.npm/9557e84b-r-local-lib-node-modules-cordova.lock
+160 silly lockFile f5fd00b8--cordova-3-4-1-0-1-0-package-tgz tar:///Users/whollymacII/.npm/cordova/3.4.1-0.1.0/package.tgz
+161 verbose lock tar:///Users/whollymacII/.npm/cordova/3.4.1-0.1.0/package.tgz /Users/whollymacII/.npm/f5fd00b8--cordova-3-4-1-0-1-0-package-tgz.lock
+162 verbose tar unpack /Users/whollymacII/.npm/ionic/1.0.4/package.tgz
+163 silly lockFile 49903aa3-usr-local-lib-node-modules-ionic tar:///usr/local/lib/node_modules/ionic
+164 verbose lock tar:///usr/local/lib/node_modules/ionic /Users/whollymacII/.npm/49903aa3-usr-local-lib-node-modules-ionic.lock
+165 silly lockFile 9e9acb93-acII-npm-ionic-1-0-4-package-tgz tar:///Users/whollymacII/.npm/ionic/1.0.4/package.tgz
+166 verbose lock tar:///Users/whollymacII/.npm/ionic/1.0.4/package.tgz /Users/whollymacII/.npm/9e9acb93-acII-npm-ionic-1-0-4-package-tgz.lock
+167 silly gunzTarPerm modes [ '755', '644' ]
+168 silly gunzTarPerm modes [ '755', '644' ]
+169 error Error: EACCES, mkdir '/usr/local/lib/node_modules/ionic'
+169 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/ionic']
+169 error   errno: 3,
+169 error   code: 'EACCES',
+169 error   path: '/usr/local/lib/node_modules/ionic',
+169 error   fstream_type: 'Directory',
+169 error   fstream_path: '/usr/local/lib/node_modules/ionic',
+169 error   fstream_class: 'DirWriter',
+169 error   fstream_stack:
+169 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+169 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53',
+169 error      'Object.oncomplete (fs.js:107:15)' ] }
+170 error Please try running this command again as root/Administrator.
+171 error System Darwin 13.1.0
+172 error command "node" "/usr/local/bin/npm" "install" "-g" "cordova" "ionic"
+173 error cwd /Users/whollymacII/Desktop/1404_mdd/catcharide
+174 error node -v v0.10.26
+175 error npm -v 1.4.3
+176 error path /usr/local/lib/node_modules/ionic
+177 error fstream_path /usr/local/lib/node_modules/ionic
+178 error fstream_type Directory
+179 error fstream_class DirWriter
+180 error code EACCES
+181 error errno 3
+182 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/ionic'
+183 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+183 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53
+183 error fstream_stack Object.oncomplete (fs.js:107:15)
+184 verbose exit [ 3, true ]
