@@ -2,6 +2,8 @@
 body {
   padding-top: 20px;
   padding-bottom: 20px;
+  background-color: #282828;
+  color: #fafafa;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -31,6 +33,10 @@ body {
   border-top: 1px solid #e5e5e5;
 }
 
+.container{
+  padding-top: 45px; /*Breathing room for header*/
+}
+
 /* Customize container */
 @media (min-width: 768px) {
   .container {
@@ -45,6 +51,7 @@ body {
 .jumbotron {
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
+  /*background-image: url(https://c2.staticflickr.com/4/3663/3666934036_ff2d5cd3b4_z.jpg);*/
 }
 .jumbotron .btn {
   font-size: 21px;
@@ -57,6 +64,38 @@ body {
 }
 .marketing p + h4 {
   margin-top: 28px;
+}
+
+.mainContain{
+  border: 2px;
+  border-radius: 1px;
+}
+
+.login_opt{
+  padding-top: 190px;
+}
+
+.btn{
+  background-color: #282828;
+  color: #fafafa;
+  border: 1px solid #e5e5e5;
+}
+
+.btn:hover{
+  color: orange;
+  border: 1px solid orange;
+}
+
+.catchName{
+  font-family: Helvetica, Arial, Sans-serif;
+  font-size: 25px;
+  color: orange;
+  font-weight: bold;
+}
+
+.catchName:hover{
+  color: #fafafa;
+  text-decoration: none;
 }
 
 /* Responsive: Portrait tablets and up */
